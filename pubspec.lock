@@ -77,10 +77,10 @@ packages:
     dependency: transitive
     description:
       name: bluez
-      sha256: bfd004c81e3de0f06dce8580bc39a4600e4a6efe465a866b31d4d954c9f356aa
+      sha256: "203a1924e818a9dd74af2b2c7a8f375ab8e5edf0e486bba8f90a0d8a17ed9fce"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.1"
+    version: "0.8.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -417,10 +417,10 @@ packages:
     dependency: "direct main"
     description:
       name: universal_ble
-      sha256: "7a057da73d1a555ee443094f5c606a6c4b94c0bd4b09dead75d431045ac8cb8d"
+      sha256: e3b78b8ed57045d079bdf35c0db66d3f7ab2e1379dd65078948725903aeade2b
       url: "https://pub.dev"
     source: hosted
-    version: "0.9.2"
+    version: "0.9.6"
   vector_math:
     dependency: transitive
     description:
