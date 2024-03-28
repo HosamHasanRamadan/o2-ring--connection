@@ -83,7 +83,7 @@ class _BigHopesState extends State<BigHopes> {
                             ),
                       );
                     },
-                    child: Text('Scan'),
+                    child: const Text('Scan'),
                   ),
                   TextButton(
                     onPressed: () async {
