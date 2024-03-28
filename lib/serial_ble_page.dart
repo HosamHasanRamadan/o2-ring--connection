@@ -277,8 +277,6 @@ class _BigHopesState extends State<BigHopes> {
       }
       print(deserializedValue);
 
-      print(deserializedValue);
-
       print(result.length);
 
       result.clear();
