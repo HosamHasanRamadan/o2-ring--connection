@@ -76,7 +76,11 @@ class _BigHopesState extends State<BigHopes> {
                 children: [
                   TextButton(
                     onPressed: () async {
-                      UniversalBle.startScan();
+                      UniversalBle.startScan(
+                        scanFilter: ScanFilter(
+                          withServices: [serviceUUID],
+                        ),
+                      );
                     },
                     child: Text('Scan'),
                   ),
