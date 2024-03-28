@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:ring_flutter_sdk/functions.dart';
 import 'package:signals_flutter/signals_flutter.dart';
 import 'package:universal_ble/universal_ble.dart';
+import 'package:flutter_web_bluetooth/flutter_web_bluetooth.dart';
 
 // 244 bytes
 
@@ -78,8 +79,8 @@ class _BigHopesState extends State<BigHopes> {
                     onPressed: () async {
                       UniversalBle.startScan(
                         scanFilter: ScanFilter(
-                          withServices: [serviceUUID],
-                        ),
+                            // withServices: [serviceUUID],
+                            ),
                       );
                     },
                     child: Text('Scan'),
